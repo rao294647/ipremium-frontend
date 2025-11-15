@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'https://script.google.com/macros/d/AKfycbwGSqbmNsvWaUjmvOz3AnWLdQo5vDxubx2hfGOZsfaeEnNuJDrcHDkQrupJ3tzyP9iEyQ/usercss';
+const API_URL = 'https://script.google.com/macros/d/AKfycbwGSqbmNsvWaUjmvOz3AnWLdQo5vDxubx2hfGOZsfaeEnNuJDrcHDkQrupJ3tzyP9iEyQ';
 const VENDOR_TOKEN = 'Vmhzb078';
 
 function App() {
