@@ -11,11 +11,8 @@ script.src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.j
 document.head.appendChild(script);
 
 // --- CONFIGURATION & GLOBAL VARIABLES ---
-// eslint-disable-next-line no-undef
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
-// eslint-disable-next-line no-undef
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
-// eslint-disable-next-line no-undef
 const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : undefined;
 
 // CRITICAL FIX: The API key must be provided here. 
